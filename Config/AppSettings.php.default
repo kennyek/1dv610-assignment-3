@@ -1,0 +1,9 @@
+<?php
+
+namespace Config;
+
+class AppSettings
+{
+    public function __construct()
+    {}
+}
