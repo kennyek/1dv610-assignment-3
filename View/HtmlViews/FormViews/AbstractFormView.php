@@ -2,8 +2,9 @@
 
 namespace View\HtmlViews\FormViews;
 
-abstract class AbstractFormView
-{
-    public function __construct()
-    {}
-}
+require_once 'View/IContentView.php';
+
+use View\IContentView;
+
+abstract class AbstractFormView implements IContentView
+{}

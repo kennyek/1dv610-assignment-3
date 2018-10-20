@@ -4,6 +4,20 @@ namespace Config;
 
 class AppSettings
 {
-    public function __construct()
-    {}
+    /** @var DatabaseConfig */
+    private $databaseSettings;
+
+    public function getDatabaseConfig(): DatabaseConfig
+    {
+        if (is_null($databaseSettings)) {
+            return new DatabaseConfig(
+                'HOST',
+                'USERNAME',
+                'PASSWORD',
+                'NAME'
+            );
+        }
+
+        return $databaseSettings;
+    }
 }
