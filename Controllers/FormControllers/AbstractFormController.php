@@ -1,6 +1,6 @@
 <?php
 
-namespace Controller\FormControllers;
+namespace Controllers\FormControllers;
 
 abstract class AbstractFormController
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Controller;
+namespace Controllers;
 
-require_once 'Model/User.php';
-require_once 'View/IView.php';
-require_once 'View/HtmlViews/LayoutView.php';
-require_once 'View/HtmlViews/FormViews/LoginFormView.php';
+require_once 'Models/User.php';
+require_once 'Views/IView.php';
+require_once 'Views/HtmlViews/LayoutView.php';
+require_once 'Views/HtmlViews/FormViews/LoginFormView.php';
 
-use Model\User;
-use View\IView;
-use View\HtmlViews\LayoutView;
-use View\HtmlViews\FormViews\LoginFormView;
+use Models\User;
+use Views\IView;
+use Views\HtmlViews\LayoutView;
+use Views\HtmlViews\FormViews\LoginFormView;
 
 class MasterController
 {

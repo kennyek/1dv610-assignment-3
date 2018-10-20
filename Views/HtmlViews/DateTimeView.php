@@ -1,6 +1,6 @@
 <?php
 
-namespace View\HtmlViews;
+namespace Views\HtmlViews;
 
 use DateTime;
 use DateTimeZone;

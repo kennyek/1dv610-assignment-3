@@ -1,9 +1,9 @@
 <?php
 
-namespace Model;
+namespace Models;
 
-include_once 'Model/Username.php';
-include_once 'Model/Password.php';
+include_once 'Models/Username.php';
+include_once 'Models/Password.php';
 
 interface IReadOnlyUser
 {

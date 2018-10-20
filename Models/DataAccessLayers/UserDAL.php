@@ -1,8 +1,8 @@
 <?php
 
-namespace Model;
+namespace Models\DataAccessLayers;
 
-class Username
+class UserDAL
 {
     public function __construct()
     {}

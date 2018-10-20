@@ -1,10 +1,10 @@
 <?php
 
-namespace View;
+namespace Views;
 
-include_once 'View/IContentView.php';
+include_once 'Views/IContentView.php';
 
-use View\IContentView;
+use Views\IContentView;
 
 interface IView
 {

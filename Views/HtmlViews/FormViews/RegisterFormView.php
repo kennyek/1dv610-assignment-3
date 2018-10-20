@@ -1,6 +1,6 @@
 <?php
 
-namespace View\HtmlViews\FormViews;
+namespace Views\HtmlViews\FormViews;
 
 class RegisterFormView extends AbstractFormView
 {

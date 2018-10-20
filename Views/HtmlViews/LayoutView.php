@@ -1,16 +1,16 @@
 <?php
 
-namespace View\HtmlViews;
+namespace Views\HtmlViews;
 
-require_once 'Model/IReadOnlyUser.php';
-require_once 'View/IContentView.php';
-require_once 'View/IView.php';
-require_once 'View/HtmlViews/DateTimeView.php';
+require_once 'Models/IReadOnlyUser.php';
+require_once 'Views/IContentView.php';
+require_once 'Views/IView.php';
+require_once 'Views/HtmlViews/DateTimeView.php';
 
-use Model\IReadOnlyUser;
-use View\HtmlViews\DateTimeView;
-use View\IContentView;
-use View\IView;
+use Models\IReadOnlyUser;
+use Views\HtmlViews\DateTimeView;
+use Views\IContentView;
+use Views\IView;
 
 class LayoutView implements IView
 {

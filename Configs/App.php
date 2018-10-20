@@ -1,17 +1,17 @@
 <?php
 
-namespace Config;
+namespace Configs;
 
-require_once 'Config/AppSettings.php';
-require_once 'Controller/MasterController.php';
-require_once 'Model/User.php';
-require_once 'Model/Username.php';
-require_once 'Model/Password.php';
-require_once 'View/HtmlViews/LayoutView.php';
+require_once 'Configs/AppSettings.php';
+require_once 'Controllers/MasterController.php';
+require_once 'Models/User.php';
+require_once 'Models/Username.php';
+require_once 'Models/Password.php';
+require_once 'Views/HtmlViews/LayoutView.php';
 
-use Controller\MasterController;
-use Model\{User, Username, Password};
-use View\HtmlViews\LayoutView;
+use Controllers\MasterController;
+use Models\{User, Username, Password};
+use Views\HtmlViews\LayoutView;
 
 class App
 {

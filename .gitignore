@@ -80,4 +80,4 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/visualstudiocode,linux,windows,macos
 
 # Custom Ignored Files
-Config/AppSettings.php
+Configs/AppSettings.php

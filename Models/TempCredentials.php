@@ -1,8 +1,8 @@
 <?php
 
-namespace Model\DataAccessLayers;
+namespace Models;
 
-class UserDAL
+class TempCredentials
 {
     public function __construct()
     {}

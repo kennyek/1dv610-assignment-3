@@ -1,6 +1,6 @@
 <?php
 
-namespace Model\DataAccessLayers;
+namespace Models\DataAccessLayers;
 
 class TempCredentialsDAL
 {

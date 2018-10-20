@@ -1,8 +1,8 @@
 <?php
 
-namespace View\HtmlViews\FormViews;
+namespace Views\HtmlViews\FormViews;
 
-require_once 'View/HtmlViews/FormViews/AbstractFormView.php';
+require_once 'Views/HtmlViews/FormViews/AbstractFormView.php';
 
 class LoginFormView extends AbstractFormView
 {

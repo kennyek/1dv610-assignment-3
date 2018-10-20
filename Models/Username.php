@@ -1,8 +1,8 @@
 <?php
 
-namespace Model;
+namespace Models;
 
-class TempCredentials
+class Username
 {
     public function __construct()
     {}
